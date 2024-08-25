@@ -1,4 +1,4 @@
-package com.utils.errorLogger
+package com.inerviewapp.utils
 
 import android.util.Log
 import javax.inject.Inject

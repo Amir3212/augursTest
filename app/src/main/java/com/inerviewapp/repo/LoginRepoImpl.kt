@@ -2,7 +2,7 @@ package com.inerviewapp.repo
 
 import com.inerviewapp.api.AppApi
 import com.inerviewapp.utils.network.ApiResponse
-import com.utils.errorLogger.ErrorLogger
+import com.inerviewapp.utils.ErrorLogger
 import javax.inject.Inject
 
 class LoginRepoImpl @Inject constructor(

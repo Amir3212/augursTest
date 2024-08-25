@@ -19,6 +19,3 @@ class ImageController(private val onImageClick: (Int) -> Unit) : TypedEpoxyContr
 
 }
 
-data class CartUI(
-    val abc: String,
-)

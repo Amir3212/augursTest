@@ -50,7 +50,7 @@ class FirstFragment : Fragment() {
         }
         collectFlow(viewModel.loginChannel) {
             when (it) {
-                is ApiEvents.Failure<*> -> {
+                is ApiEvents.Failure -> {
                     showToast(it.error as String)
                 }
 

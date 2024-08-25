@@ -3,7 +3,7 @@ package com.inerviewapp.repo.images
 import com.inerviewapp.api.AppApi
 import com.inerviewapp.utils.db.sharedPrefs.AppPrefs
 import com.inerviewapp.utils.network.ApiResponse
-import com.utils.errorLogger.ErrorLogger
+import com.inerviewapp.utils.ErrorLogger
 import javax.inject.Inject
 
 class ImagesRepoImpl @Inject constructor(

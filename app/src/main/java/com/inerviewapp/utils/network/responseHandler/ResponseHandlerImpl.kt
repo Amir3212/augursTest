@@ -1,6 +1,6 @@
 package com.inerviewapp.utils.network.responseHandler
 
-import com.utils.errorLogger.ErrorLogger
+import com.inerviewapp.utils.ErrorLogger
 import com.inerviewapp.utils.network.ApiResponse
 import com.utils.network.responseHandler.getResponseAfterValidation
 import retrofit2.Response

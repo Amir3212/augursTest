@@ -4,7 +4,6 @@
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
     <string name="previous">Previous</string>
 
     <string name="lorem_ipsum">
@@ -44,7 +43,6 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="e_mail">E-mail</string>
     <string name="password">Password</string>
     <string name="sign_in_to_continue">Sign In To Continue</string>
@@ -52,4 +50,5 @@
     <string name="register">register</string>
     <string name="forget_password">Forget Password</string>
     <string name="sign_in">Sign In</string>
+    <string name="content">content</string>
 </resources>

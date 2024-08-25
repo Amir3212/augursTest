@@ -2,14 +2,9 @@ package com.inerviewapp.ui
 
 import android.os.Bundle
 import android.util.Log
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.tabs.TabLayoutMediator
-import com.inerviewapp.R
 import com.inerviewapp.adapter.ImageSliderAdapter
-import com.inerviewapp.databinding.ActivityHomeBinding
 import com.inerviewapp.databinding.ActivitySingleImageSliderBinding
 import com.inerviewapp.utils.redux.ApplicationState
 import com.inerviewapp.utils.redux.Store

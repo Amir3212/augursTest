@@ -9,15 +9,6 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.collectLatest
 
 
-@Suppress("DEPRECATION")
-fun <T> Fragment.collectLatestFlow(flow: Flow<T>, collect: suspend (T) -> Unit) {
-    lifecycleScope.launchWhenStarted {
-        viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {
-            flow.collectLatest(collect)
-        }
-    }
-}
-
 fun <T> Fragment.collectFlow(flow: Flow<T>, collect: (T) -> Unit) {
     lifecycleScope.launchWhenStarted {
         viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {
@@ -26,12 +17,6 @@ fun <T> Fragment.collectFlow(flow: Flow<T>, collect: (T) -> Unit) {
     }
 }
 
-
-fun <T> AppCompatActivity.collectLatestFlow(flow: Flow<T>, collect: suspend (T) -> Unit) {
-    lifecycleScope.launchWhenStarted {
-        flow.collectLatest(collect)
-    }
-}
 
 fun <T> AppCompatActivity.collectFlow(flow: Flow<T>, collect: (T) -> Unit) {
     lifecycleScope.launchWhenStarted {
