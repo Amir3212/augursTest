@@ -34,5 +34,5 @@ jobs:
       - name: upload html test report
         uses: action/upload-artifact@v4
         with: 
-           name: intex.html
+           name: index.html
            path: app/build/report/lint-result-degug.html
