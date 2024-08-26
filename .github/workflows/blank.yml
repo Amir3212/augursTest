@@ -52,6 +52,7 @@ jobs:
 
 
   stattic-code-analyst:
+    needs: [lint]
     runs-on: ubuntu-latest
 
     steps:
@@ -69,7 +70,7 @@ jobs:
 
       - name: Sonar Scan
         run: ./gradlew app:sonarqube -Dsonar.login${{secrets.SONAR_TOKEN}}
-        env: GITHUB_TOKEN:${{secrets.TOKEN}}
+        env: GITHUB_TOKEN:${{secrets.GITHUB_TOKEN }}
 
 
 
