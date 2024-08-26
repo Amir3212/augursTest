@@ -7,6 +7,7 @@ plugins {
     id("androidx.navigation.safeargs")
     id("kotlin-parcelize")
     id("com.google.devtools.ksp")
+    id("org.sonarqube")
 }
 
 android {
